@@ -1,7 +1,7 @@
 export interface Appointment {
   id: number;
   title: string;
-  contact: string;
+  contactName: string;
   tel: string;
   date: Date;
 }
