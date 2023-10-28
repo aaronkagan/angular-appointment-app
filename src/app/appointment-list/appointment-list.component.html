@@ -1,11 +1,13 @@
-<form>
+<form (ngSubmit)="addAppointment()" class="new-appointment-form">
   <label for="appointment-title">Appointment Title</label>
-  <input id="appointment-title" name="appointment-title" type="text">
+  <input [(ngModel)]="newAppointmentTitle" id="appointment-title" name="appointment-title" type="text">
   <label for="appointment-contact-name">Contact Name</label>
-  <input id="appointment-contact-name" name="appointment-contact-name" type="text">
+  <input [(ngModel)]="newAppointmentContactName" id="appointment-contact-name" name="appointment-contact-name"
+    type="text">
   <label for="appointment-contact-number">Contact Number</label>
-  <input id="appointment-contact-number" name="appointment-contact-number" type="tel">
+  <input [(ngModel)]="newAppointmentContactNumber" id="appointment-contact-number" name="appointment-contact-number"
+    type="tel">
   <label for="appointment-date">Date of Appointment</label>
-  <input id="appointment-date" name="appointment-date" type="date">
+  <input [(ngModel)]="newAppointmentDate" id="appointment-date" name="appointment-date" type="date">
   <button>Book Appointment</button>
 </form>
