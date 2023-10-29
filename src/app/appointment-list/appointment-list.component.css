@@ -35,6 +35,13 @@
   border-bottom: 1px solid hsl(0, 0%, 25%);
 }
 
+.appointment-date-input::-webkit-calendar-picker-indicator {
+  background-color: white;
+  margin: 0.3rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 .btn {
   font-size: 1.6rem;
   border: 3px solid #29292f;
