@@ -98,3 +98,23 @@
 .btn.btn-delete-appointment:hover {
   text-shadow: 0 0 10px red;
 }
+
+@media all and (max-width: 1125px) {
+  .header-title {
+    font-size: 150%;
+  }
+}
+
+@media all and (max-width: 705px) {
+  * {
+    font-size: 1.6rem;
+  }
+
+  .header-title {
+    font-size: 125%;
+  }
+
+  .appointment-component {
+    max-width: 90%;
+  }
+}
