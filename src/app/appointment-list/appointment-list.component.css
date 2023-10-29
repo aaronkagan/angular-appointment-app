@@ -1,0 +1,94 @@
+.appointment-component {
+  margin: 0 auto;
+  margin-top: 5vh;
+  max-width: 50%;
+  background-color: #1e1f25;
+  border: 1px solid #29292f;
+  padding: 6.4rem;
+  min-height: 90vh;
+}
+
+.header-title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 300%;
+  margin-bottom: 2rem;
+}
+
+.new-appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.new-appointment-form label {
+  color: #9494b8;
+  font-weight: 700;
+}
+
+.new-appointment-form input {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  outline: none;
+  color: hsl(0, 0%, 85%);
+  border: none;
+  border-bottom: 1px solid hsl(0, 0%, 25%);
+}
+
+.btn {
+  font-size: 1.6rem;
+  border: 3px solid #29292f;
+  max-width: fit-content;
+}
+
+.btn.btn-book-appointment {
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+
+.btn.btn-book-appointment:hover {
+  background-color: hsl(240, 7%, 27%);
+  border: 3px solid transparent;
+}
+
+.appointment-list {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.appointment {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.4rem;
+  color: hsl(0, 0%, 85%);
+  font-size: 1.8rem;
+  font-weight: 500;
+  gap: 1rem;
+  /* border: 3px solid #29292f; */
+  box-shadow: 0 0 10px 0 #29292f;
+  max-width: fit-content;
+  padding: 2rem;
+}
+
+.appointment-title {
+  font-size: 2.5rem;
+}
+
+.appointment-date,
+.appointment-contact-name,
+.appointment-contact-number {
+  font-size: 1.8rem;
+  color: hsl(0, 0%, 65%);
+}
+
+.btn.btn-delete-appointment {
+  color: red;
+  border: none;
+  font-size: 1.4rem;
+}
+
+.btn.btn-delete-appointment:hover {
+  text-shadow: 0 0 10px red;
+}
